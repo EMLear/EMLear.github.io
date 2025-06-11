@@ -1,7 +1,8 @@
 # EMLear.github.io
 
 Welcome to my portfolio
-Hello world! This is my readme ive created a new branch called notmainbranch, because i was already on 'Main'
+Hello world! 
+This is my readme ive created a new branch called notmainbranch, because i was already on 'Main'
 
 semantic elements of the portfolio website:
 
@@ -45,6 +46,3 @@ generic block element no content shud only be used when no other semantic tag is
 noeffect with how things are laid out _allows u tp add css without chnaging the sematic meaning of that paragrpgh
 < br >
 useful for a line break
-
-< img >
-example example
