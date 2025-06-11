@@ -48,6 +48,8 @@ noeffect with how things are laid out _allows u tp add css without chnaging the 
 useful for a line break
 
 
-acknowledgement
+Acknowledgement
+
 Jo Franchetti (@thisisjofrank)
+
 Colette Dufficy (ColetteDufficy)
