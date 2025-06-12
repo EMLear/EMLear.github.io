@@ -2,7 +2,7 @@
 
 Welcome to my portfolio
 Hello world! 
-This is my readme ive created a new branch called notmainbranch, because i was already on 'Main'
+This is my readme i have created a new branch called notmainbranch, because i was already on 'Main'
 
 semantic elements of the portfolio website:
 
