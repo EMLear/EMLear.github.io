@@ -9,6 +9,16 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
+    <script>
+        function showQRCode() {
+            var qrElement =  document.getElementById("qrCode");
+            qrElement.style.display = "block";
+        }
+
+        function closeQRCode() {
+            document.getElementById("qrCode").style.display = "none";
+        }
+    </script>
 
     <body>
         <div class="blue-block"> </div>
@@ -33,6 +43,7 @@
                         <p>For the last two years, I have attended a Foundation Apprenticeship in Digital Media and Design at Edinburgh College. This course has enabled me to expand my ideas and designs. I have been able to experiment and try new media, such as typography and illustration. It has been useful to work on briefs and do the research, whether in a group or by myself.</p>
 
                         <a href="https://drive.google.com/file/d/1QmVUuhIOtstvxyOnft84dAq75dF3v2dF/view?usp=sharing" target="blank" class="button-reverse"> My CV</a>
+                        <button class="button" onclick="showQRCode()">Share</button>
                     </div>
                 </div>
             </section>
@@ -45,7 +56,9 @@
                         <p>Creating a poster for the Royal Oprea House for the production The Winters Tale.This was for the 2025 compition.</p>
                         <a href="./portfolio/royalballet.html" class="article-button" >Royal Ballet</a>
                     </div>
-                    <img src="images/ballet.png" alt="Royal Ballet thumbnail" class="article-img">
+                    <a href="./portfolio/royalballet.html">
+                        <img src="images/ballet.png" alt="Royal Ballet thumbnail" class="article-img">
+                    </a>
                 </article>
                 <article>
                     <div class="article-text">
@@ -53,7 +66,9 @@
                         <p>A group project on Scottish mythology to design a chocolate package</p>
                         <a href="./portfolio/chocolate.html" class="article-button" ">Chocolate</a>
                     </div>
-                    <img src="images/chocolate.png" alt="Chocolate bar thumbnnail" class="article-img">
+                    <a href="./portfolio/chocolate.html">
+                        <img src="images/chocolate.png" alt="Chocolate bar thumbnnail" class="article-img">
+                    </a>
                 </article>
                 <article>
                     <div class="article-text">
@@ -61,7 +76,9 @@
                         <p>Christmas caroling poster for Granton community college for the 2024 Christmas competition</p>
                         <a href="./portfolio/wreath.html" class="article-button">Caroling poster</a>
                     </div>
-                    <img src="images/wreath.png" alt="piggy project homepage screenshot" class="article-img">
+                    <a href="./portfolio/wreath.html">
+                        <img src="images/wreath.png" alt="piggy project homepage screenshot" class="article-img">
+                    </a>
                 </article>
                 <article>
                     <div class="article-text">
@@ -69,7 +86,9 @@
                         <p>Fringe festival campaign, including making poster, mock up merchandise and instagram campaign</p>
                         <a href="./portfolio/fringe.html" class="article-button">Fringe</a>
                     </div>
-                    <img src="images/fringe.png" alt="Finge festival cover" class="article-img">
+                    <a href="./portfolio/fringe.html">
+                        <img src="images/fringe.png" alt="Finge festival cover" class="article-img">
+                    </a>
                 </article>
                 <article>
                     <div class="article-text">
@@ -77,7 +96,9 @@
                         <p>A James the the giant peach book cover design using 3 different inspiration sources</p>
                         <a href="./portfolio/james-and-the-giant-peach.html" class="article-button">Book covers</a>
                     </div>
-                    <img src="images/james-photo.png" alt="James the giant peach book coverr" class="article-img">
+                     <a href="./portfolio/james-and-the-giant-peach.html">
+                        <img src="images/james-photo.png" alt="James the giant peach book coverr" class="article-img">
+                    </a>
                 </article>
             </section>
 
@@ -108,6 +129,11 @@
             </ul>
             <p>&copy 2025 Ella Lear</p>
         </footer>
+
+        <div class="qr-code" id="qrCode">
+            <img src="./images/QRCode.png" onclick="closeQRCode()"/>
+        </div>
+</div>
 
     </body>
 

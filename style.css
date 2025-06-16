@@ -87,7 +87,6 @@ header {
 }
 
 .brief-about {
-    height: 40vh;
     padding: var(--spacing);
     color: white;
     background-color: var(--primary);
@@ -97,7 +96,6 @@ header {
 }
 
 .brief-about::after {
-    height: 10vh;
     content: "";
     position: absolute;
     right: 0;
@@ -474,3 +472,20 @@ body {
 /* @media print {
 
 } */
+
+.qr-code {
+    max-width: 90%;
+    display: none;
+    position: fixed;
+    top: 25%;
+    /* bottom: 25%;
+    left: 15%;
+    right: 15%; */
+    text-align: center;
+    z-index: 9;
+}
+
+.qr-code img {
+    max-width: 90%; 
+  vertical-align: middle; /* Handle some alignment edge cases */
+}
