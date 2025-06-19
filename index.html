@@ -8,15 +8,14 @@
         <link rel="icon" href="image/icon.ico" />
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <script src="spotlight.bundle.js"></script>
     </head>
     <script>
-        function showQRCode() {
-            var qrElement =  document.getElementById("qrCode");
-            qrElement.style.display = "block";
-        }
-
-        function closeQRCode() {
-            document.getElementById("qrCode").style.display = "none";
+        function showQRCode2() {
+            Spotlight.fullscreen(false);
+            Spotlight.show([{ src: "./images/QRCode.png",
+                              control: "close"
+                            }]);
         }
     </script>
 
@@ -41,9 +40,7 @@
                         <p>I have just left high school and am hopefully going to do a HND:visual communication in user experiance at Edinburgh college after the summer.</p>
                         <p>After a difficult high school i have left with a higher in <span class="keywords">design manufacture</span>and <span class="keywords">applications of maths</span> these subjects have given me great prolem solving skills.</p>
                         <p>For the last two years, I have attended a Foundation Apprenticeship in Digital Media and Design at Edinburgh College. This course has enabled me to expand my ideas and designs. I have been able to experiment and try new media, such as typography and illustration. It has been useful to work on briefs and do the research, whether in a group or by myself.</p>
-
-                        <a href="https://drive.google.com/file/d/1QmVUuhIOtstvxyOnft84dAq75dF3v2dF/view?usp=sharing" target="blank" class="button-reverse"> My CV</a>
-                        <button class="button" onclick="showQRCode()">Share</button>
+                        <button class="button" onclick="showQRCode2()">Share</button>
                     </div>
                 </div>
             </section>
@@ -116,9 +113,6 @@
         <footer>
             <ul class="social">
                 <li class="social-link">
-                    <a class="social-link li" href="https://www.linkedin.com/in/colettedufficy/" target="_blank">LinkedIn</a>
-                </li>
-                <li class="social-link">
                     <a class="social-link gh" href="https://github.com/EMLear" target="_blank">GitHub</a>
                 </li>
                 <li class="social-link">
@@ -131,7 +125,7 @@
         </footer>
 
         <div class="qr-code" id="qrCode">
-            <img src="./images/QRCode.png" onclick="closeQRCode()"/>
+            <img src="./images/QRCode.png"/>
         </div>
 </div>
 

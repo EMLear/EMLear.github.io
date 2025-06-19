@@ -406,15 +406,15 @@ footer {
 }
 
 .gh {
-    background-image: url('screengrabs/github-grey.png');    
+    background-image: url('images/github-grey.png');    
 }
 
 .li {
-    background-image: url('screengrabs/linkedin-grey.png');
+    background-image: url('images/linkedin-grey.png');
 }
 
 .up {
-    background-image: url('screengrabs/up_icon.png');
+    background-image: url('images/up_icon.png');
 }
 
 
