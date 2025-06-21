@@ -1,135 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ella's Portfolio</title>
-        <link rel="icon" href="image/icon.ico" />
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="spotlight.bundle.js"></script>
-    </head>
-    <script>
-        function showQRCode2() {
-            Spotlight.fullscreen(false);
-            Spotlight.show([{ src: "./images/QRCode.png",
-                              control: "close"
-                            }]);
-        }
-    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ella's Portfolio</title>
+    <link rel="icon" href="image/icon.ico" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="spotlight.bundle.js"></script>
+</head>
+<script>
+    function showQRCode2() {
+        Spotlight.fullscreen(false);
+        Spotlight.show([{
+            src: "./images/QRCode.png",
+            control: "close"
+        }]);
+    }
+</script>
 
-    <body>
-        <div class="blue-block"> </div>
+<body>
+    <div class="blue-block"> </div>
 
-        <header id="top">
-            <h1>Hi My name is <span class="heading-highlight">Ella Lear</span>.<br> 
-                I am an aspiring graphic designer, welcome to my online portfolio </h1>
-                <a href="#main" class="button header-link">Find out more</a>
-        </header>
+    <header id="top">
+        <h1>Hi My name is <span class="heading-highlight">Ella Lear</span>.<br>
+            I am an aspiring graphic designer, welcome to my online portfolio.</h1>
+        <a href="#main" class="button header-link">Find out more</a>
+    </header>
 
 
-        <main id="main">
-            <!-- about me section -->
-            <section class="about">
-                <h2>About me</h2>
-                <div class="about-info">
-                    <img src="images/e logo copy.jpg" alt="e logo" class="about-img">
-
-                    <div class="about-text">
-                        <p>I have just left high school and am hopefully going to do a HND:visual communication in user experiance at Edinburgh college after the summer.</p>
-                        <p>After a difficult high school i have left with a higher in <span class="keywords">design manufacture</span>and <span class="keywords">applications of maths</span> these subjects have given me great prolem solving skills.</p>
-                        <p>For the last two years, I have attended a Foundation Apprenticeship in Digital Media and Design at Edinburgh College. This course has enabled me to expand my ideas and designs. I have been able to experiment and try new media, such as typography and illustration. It has been useful to work on briefs and do the research, whether in a group or by myself.</p>
-                        <button class="button" onclick="showQRCode2()">Share</button>
-                    </div>
+    <main id="main">
+        <!-- about me section -->
+        <section class="about">
+            <h2>About me</h2>
+            <div class="about-info">
+                <img src="images/e logo copy.jpg" alt="e logo" class="about-img">
+                <div class="about-text">
+                    <p>I have just left high school and am hopefully going to do an HND in Visual Communication in User
+                        Experience at Edinburgh College after the summer.</p>
+                    <p>After a difficult high school experience, I have left with a Higher in <span
+                            class="keywords">Design Manufacture</span> and <span class="keywords">Applications of
+                            Maths</span>. These subjects have given me great problem-solving skills.</p>
+                    <p>For the last two years, I have attended a Foundation Apprenticeship in Digital Media and Design
+                        at Edinburgh College. This course has enabled me to expand my ideas and designs. I have been
+                        able to experiment and try new media, such as typography and illustration. It has been useful to
+                        work on briefs and do the research, whether in a group or by myself. Unfortunately, due to
+                        different factors, the college was unable to provide us with an apprenticeship.</p>
+                    <button class="button" onclick="showQRCode2()">Share</button>
                 </div>
-            </section>
-            <!-- Projects -->
-            <section class="article">
-                <h2>Projects</h2>
-                <article>
-                    <div class="article-text">
-                        <h3>Royal ballet - The winters tale</h3>
-                        <p>Creating a poster for the Royal Oprea House for the production The Winters Tale.This was for the 2025 compition.</p>
-                        <a href="./portfolio/royalballet.html" class="article-button" >Royal Ballet</a>
+            </div>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section class="article">
+            <h2>Projects</h2>
+            <article>
+                <div class="article-text">
+                    <h3>Royal ballet - The winters tale</h3>
+                    <p>Creating a poster for the Royal Oprea House for the production of The Winters Tale.This was for
+                        the 2025 Royal Ballet and Opera compition.</p>
+                    <a href="./portfolio/royalballet.html" class="article-button">Royal Ballet</a>
+                </div>
+                <a href="./portfolio/royalballet.html">
+                    <img src="images/ballet.png" alt="Royal Ballet thumbnail" class="article-img">
+                </a>
+            </article>
+            <article>
+                <div class="article-text">
+                    <h3>Chocolate</h3>
+                    <p>A group project to design chocolate packaging based around Scottish mythology.</p>
+                    <a href="./portfolio/chocolate.html" class="article-button" ">Chocolate</a>
                     </div>
-                    <a href="./portfolio/royalballet.html">
-                        <img src="images/ballet.png" alt="Royal Ballet thumbnail" class="article-img">
-                    </a>
-                </article>
-                <article>
-                    <div class="article-text">
-                        <h3>Chocolate</h3>
-                        <p>A group project on Scottish mythology to design a chocolate package</p>
-                        <a href="./portfolio/chocolate.html" class="article-button" ">Chocolate</a>
-                    </div>
-                    <a href="./portfolio/chocolate.html">
+                    <a href=" ./portfolio/chocolate.html">
                         <img src="images/chocolatebar.png" alt="Chocolate bar thumbnnail" class="article-img">
                     </a>
-                </article>
-                <article>
-                    <div class="article-text">
-                        <h3>Christmas poster</h3>
-                        <p>Christmas caroling poster for Granton community college for the 2024 Christmas competition</p>
-                        <a href="./portfolio/wreath.html" class="article-button">Caroling poster</a>
-                    </div>
-                    <a href="./portfolio/wreath.html">
-                        <img src="images/wreath.png" alt="piggy project homepage screenshot" class="article-img">
-                    </a>
-                </article>
-                <article>
-                    <div class="article-text">
-                        <h3>Fringe festival campaign</h3>
-                        <p>Fringe festival campaign, including making poster, mock up merchandise and instagram campaign</p>
-                        <a href="./portfolio/fringe.html" class="article-button">Fringe</a>
-                    </div>
-                    <a href="./portfolio/fringe.html">
-                        <img src="images/fringe.png" alt="Finge festival cover" class="article-img">
-                    </a>
-                </article>
-                <article>
-                    <div class="article-text">
-                        <h3>James and the giant peach</h3>
-                        <p>A James the the giant peach book cover design using 3 different inspiration sources</p>
-                        <a href="./portfolio/james-and-the-giant-peach.html" class="article-button">Book covers</a>
-                    </div>
-                     <a href="./portfolio/james-and-the-giant-peach.html">
-                        <img src="images/james-photo.png" alt="James the giant peach book coverr" class="article-img">
-                    </a>
-                </article>
-            </section>
+            </article>
+            <article>
+                <div class="article-text">
+                    <h3>Christmas poster</h3>
+                    <p>Christmas caroling poster for Granton community college for the 2024 Christmas poster design
+                        competition.</p>
+                    <a href="./portfolio/wreath.html" class="article-button">Caroling poster</a>
+                </div>
+                <a href="./portfolio/wreath.html">
+                    <img src="images/wreath.png" alt="piggy project homepage screenshot" class="article-img">
+                </a>
+            </article>
+            <article>
+                <div class="article-text">
+                    <h3>Fringe festival campaign</h3>
+                    <p>Fringe festival campaign, including making poster, mock up merchandise and instagram campaign.
+                    </p>
+                    <a href="./portfolio/fringe.html" class="article-button">Fringe</a>
+                </div>
+                <a href="./portfolio/fringe.html">
+                    <img src="images/fringe.png" alt="Finge festival cover" class="article-img">
+                </a>
+            </article>
+            <article>
+                <div class="article-text">
+                    <h3>James and the giant peach</h3>
+                    <p>A James the the giant peach book cover design using 3 different inspiration sources.</p>
+                    <a href="./portfolio/james-and-the-giant-peach.html" class="article-button">Book covers</a>
+                </div>
+                <a href="./portfolio/james-and-the-giant-peach.html">
+                    <img src="images/james-photo.png" alt="James the giant peach book coverr" class="article-img">
+                </a>
+            </article>
+        </section>
 
 
 
-            <!-- contact section -->
-            <section class="primary-theme-contact">
-                <h2>Contact me</h2>
-                <p>If you would like to contact me, you can drop me a message! </p>
-                <a class="button-reverse" href="mailto:ellalear@icloud.com ">email me</a>
-            </section>
+        <!-- contact section -->
+        <section class="primary-theme-contact">
+            <h2>Contact me</h2>
+            <p>If you would like to contact me, you can drop me a message! </p>
+            <a class="button-reverse" href="mailto:ellalear@icloud.com ">email me</a>
+        </section>
 
-        </main>
+    </main>
 
-        <footer>
-            <ul class="social">
-                <li class="social-link">
-                    <a class="social-link gh" href="https://github.com/EMLear" target="_blank">GitHub</a>
-                </li>
-                <li class="social-link">
-                    <a class="social-link-up up" href="#top">Up</a>
-                </li>
+    <footer>
+        <ul class="social">
+            <li class="social-link">
+                <a class="social-link gh" href="https://github.com/EMLear" target="_blank">GitHub</a>
+            </li>
+            <li class="social-link">
+                <a class="social-link-up up" href="#top">Up</a>
+            </li>
 
 
-            </ul>
-            <p>&copy 2025 Ella Lear</p>
-        </footer>
+        </ul>
+        <p>&copy 2025 Ella Lear</p>
+    </footer>
 
-        <div class="qr-code" id="qrCode">
-            <img src="./images/QRCode.png"/>
-        </div>
-</div>
+    <div class="qr-code" id="qrCode">
+        <img src="./images/QRCode.png" />
+    </div>
+    </div>
 
-    </body>
+</body>
 
-    </body>
+</body>
+
 </html>
