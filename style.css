@@ -446,6 +446,11 @@ footer {
     display: flex;
 }
 
+.portfolio-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 /* https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -487,4 +492,18 @@ body {
 .qr-code img {
     max-width: 90%; 
   vertical-align: middle; /* Handle some alignment edge cases */
+}
+
+.spotlight img, .image {
+    width: 29vw;
+    height: auto;
+    max-width: 300px;
+    margin: 1vmin 1vmin;
+    content-visibility: auto;
+    justify-content: center;
+}
+
+.spotlight-group {
+    text-align: center;
+    align-items: center;
 }
